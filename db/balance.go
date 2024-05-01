@@ -3,7 +3,7 @@ package db
 import (
 	"database/sql"
 
-	"gitlab.com/idoko/bucketeer/models"
+	"github.com/volssan/balances/models"
 )
 
 func (db Database) AddBalance(balance *models.Balance) error {

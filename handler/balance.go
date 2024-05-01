@@ -10,8 +10,8 @@ import (
 
 	"github.com/go-chi/chi"
 	"github.com/go-chi/render"
-	"gitlab.com/idoko/bucketeer/db"
-	"gitlab.com/idoko/bucketeer/models"
+	"github.com/volssan/balances/db"
+	"github.com/volssan/balances/models"
 )
 
 var userIdKey = "userId"

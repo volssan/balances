@@ -3,8 +3,8 @@ package main
 import (
 	"context"
 	"fmt"
-	"gitlab.com/idoko/bucketeer/db"
-	"gitlab.com/idoko/bucketeer/handler"
+	"github.com/volssan/balances/db"
+	"github.com/volssan/balances/handler"
 	"log"
 	"net"
 	"net/http"
