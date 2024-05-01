@@ -1,4 +1,4 @@
-FROM golang:1.14.6-alpine3.12 as builder
+FROM golang:1.22-alpine3.19 as builder
 
 COPY go.mod go.sum /go/src/github.com/volssan/balances/
 WORKDIR /go/src/github.com/volssan/balances
